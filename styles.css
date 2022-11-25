@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+p {
+  color: gray;
+}
+
+.header {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header > * {
+  margin: 0.15rem;
+}
+
+.profile-picture {
+  margin-top: 1rem;
+  width: 8rem;
+  border-radius: 100%;
+}
+
+.profile-picture {
+  margin-top: 1rem;
+  width: 8rem;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-picture:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px #888888;
+}
+
+.three-canvas {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
